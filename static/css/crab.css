@@ -249,7 +249,7 @@ ul.pagination {
     position: relative;
   }
 
-  #summary {
+  #article aside {
     display: block;
     position: absolute;
     top: 0px;
