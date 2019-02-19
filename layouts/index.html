@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
-  {{ range where .Data.Pages "Title" "Home" }}
+<div id="homepage">
+    <h1>{{ .Title }}</h1>
     {{ .Content }}
-  {{ end }}
+</div>
 {{ partial "footer.html" . }}

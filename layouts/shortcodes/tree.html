@@ -1,12 +1,12 @@
 {{- $dir := $.Page.Params.dir -}}
-{{- $d := $.Get 0 -}}
+
 {{- $rdir := printf "content/%s" $dir -}}
 {{- $files := readDir $rdir -}}
 <div id="tree">
     <ul>
 {{ range $files }}
 {{ if ne .Name "_index.md" }}
-{{- $page := printf "%s/%s" $d .Name -}}
+{{- $page := printf "%s/%s" $dir .Name -}}
 {{ with $.Page.Site.GetPage $page }}<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>{{ end }}
 {{ end }}
 {{ end }}</ul>

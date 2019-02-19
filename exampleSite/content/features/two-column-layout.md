@@ -5,7 +5,7 @@ draft = false
 
 +++
 
-{{% summary %}}
+{{% aside %}}
 This is what sidebar content looks like.
 
 Actually, this page has more info on:
@@ -13,7 +13,7 @@ Actually, this page has more info on:
 - alpha
 - beta
 - gamma
-{{% /summary %}}
+{{% /aside %}}
 
 Crab allows you to put content in a second column on the right-hand
 side of the page.
@@ -21,7 +21,7 @@ side of the page.
 You could use this space to provide the reader with a quick summary of
 what the current page is all about.
 
-On mobile devices, the summary is rendered directly above the actual
+On mobile devices, the aside is rendered directly above the actual
 page content.
 
 ## Alpha

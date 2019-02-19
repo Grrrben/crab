@@ -5,9 +5,9 @@ draft = false
 
 +++
 
-{{% summary %}}
+{{% aside %}}
 This is a an example contact page.
-{{% /summary %}}
+{{% /aside %}}
 
 Contact the website author:
 
