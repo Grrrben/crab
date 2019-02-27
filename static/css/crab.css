@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:400,400i,600,600i,700,700i');
-
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:400,400i,600,600i,700,700i|Lobster');
 html,
 body {
   background: #fff;
@@ -25,12 +24,12 @@ a:link,
 a:active,
 a:visited,
 a:hover {
-  color: #1da8be;
+  color: #00A600;
 }
 
 #site-title {
-  font-weight: 700;
-  font-size: xx-large;
+  font-size: 5em;
+  font-family: 'Lobster', cursive;
 }
 
 #site-title a:link,
@@ -80,10 +79,11 @@ nav a:link,
 nav a:active,
 nav a:visited {
   color: #444;
+  font-size: 1.4em;
 }
 
 nav a:hover {
-  color: #1da8be;
+  color: #00A600;
 }
 
 #content,
