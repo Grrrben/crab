@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:400,400i,600,600i,700,700i|Lobster');
+
 html,
 body {
-  background: #fff;
-  color: #333;
-  font-family: 'Merriweather', serif;
+    background: #fff;
+    color: #333;
+    font-family: 'Merriweather', serif;
 }
 
 #container {
-  margin: auto;
+    margin: auto;
 }
 
 #header {
-  margin-top: 2em;
+    margin-top: 2em;
 }
 
 #site-logo {
-  float: right;
-  height: 6.2em;
+    float: right;
+    height: 6.2em;
 }
 
 #site-title,
@@ -24,80 +25,80 @@ a:link,
 a:active,
 a:visited,
 a:hover {
-  color: #00A600;
+    color: #00A600;
 }
 
 #site-title {
-  font-size: 5em;
-  font-family: 'Lobster', cursive;
+    font-size: 5em;
+    font-family: 'Lobster', cursive;
 }
 
 #site-title a:link,
 #site-title a:active,
 #site-title a:visited,
 #site-title a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #site-slogan,
 #footer {
-  color: #777;
+    color: #777;
 }
 
 #site-slogan {
-  margin-top: .75em;
+    margin-top: .75em;
 }
 
 nav {
-  clear: both;
-  margin-top: 3em;
+    clear: both;
+    margin-top: 3em;
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 nav ul.first > li {
-  display: block;
-  margin: .5em 0;
+    display: block;
+    margin: .5em 0;
 }
 
 nav ul.second,
 nav ul.third {
-  display: none;
+    display: none;
 }
 
 nav a:link,
 nav a:active,
 nav a:visited,
 nav a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 nav a:link,
 nav a:active,
 nav a:visited {
-  color: #444;
-  font-size: 1.4em;
+    color: #444;
+    font-size: 1.4em;
 }
 
 nav a:hover {
-  color: #00A600;
+    color: #00A600;
 }
 
 #content,
 #footer,
 hr {
-  border-top: 1px dashed #aaa;
+    border-top: 1px dashed #aaa;
 }
 
 #content {
-  margin-top: 2em;
+    margin-top: 2em;
 }
 
 #article {
-  margin-top: 2em;
+    margin-top: 2em;
 }
 
 h1,
@@ -106,27 +107,27 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora', serif;
-  font-weight: 400;
+    font-family: 'Lora', serif;
+    font-weight: 400;
 }
 
 #article p, #article ol li, #article ul li {
-  text-align: justify;
+    text-align: justify;
 }
 
 #article blockquote {
-  font-family: 'Lora', serif;
-  font-style: italic;
-  font-size: 1.05em;
-  line-height: 1.5em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1.05em;
+    line-height: 1.5em;
 }
 
 #article dl dt {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 #article dl dt em {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 #article .timestamp,
@@ -135,47 +136,47 @@ h6 {
 #article .tags a:active,
 #article .tags a:visited,
 #article .tags a:hover {
-  color: #555;
+    color: #555;
 }
 
 hr {
-  border-bottom: 0;
-  border-left: 0;
-  border-right: 0;
-  margin: 2.5em 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 2.5em 0;
 }
 
 span.upper {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
- 
+
 img.right {
-  float: right;
-  margin: 0 0 1em 1em;
+    float: right;
+    margin: 0 0 1em 1em;
 }
 
 img.left {
-  float: left;
-  margin: 0 1em 1em 0;
+    float: left;
+    margin: 0 1em 1em 0;
 }
 
 #footer {
-  clear: both;
-  padding-top: 2em;
-  font-size: 90%;
+    clear: both;
+    padding-top: 2em;
+    font-size: 90%;
 }
 
 ul.pagination {
-  padding: 0;
-  list-style-type: none;
+    padding: 0;
+    list-style-type: none;
 }
 
 .pagination li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .pagination .active a:link,
@@ -186,86 +187,91 @@ ul.pagination {
 .pagination .disabled a:active,
 .pagination .disabled a:visited,
 .pagination .disabled a:hover {
-  color: #555;
-  text-decoration: none;
+    color: #555;
+    text-decoration: none;
+}
+
+small.source,
+small.source a {
+    color: #777777;
 }
 
 @media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
-  #container {
-    width: 950px;
-  }
+    #container {
+        width: 950px;
+    }
 
-  nav ul li a {
-    display: block;
-    font-size: 90%;
-  }
+    nav ul li a {
+        display: block;
+        font-size: 90%;
+    }
 
-  nav ul.first > li {
-    display: inline-block;
-    position: relative;
-    padding-right: 1.25em;
-  }
+    nav ul.first > li {
+        display: inline-block;
+        position: relative;
+        padding-right: 1.25em;
+    }
 
-  nav ul.second,
-  nav ul.third {
-    position: absolute;
-    background: #fff;
-    width: 212px;
-    border: 1px solid #ddd;
-    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.25);
-  }
+    nav ul.second,
+    nav ul.third {
+        position: absolute;
+        background: #fff;
+        width: 212px;
+        border: 1px solid #ddd;
+        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+    }
 
-  nav ul.second {
-    z-index: 2;
-  }
+    nav ul.second {
+        z-index: 2;
+    }
 
-  nav ul.third {
-    z-index: 3;
-  }
+    nav ul.third {
+        z-index: 3;
+    }
 
-  nav ul.second li {
-    position: relative;
-  }
+    nav ul.second li {
+        position: relative;
+    }
 
-  nav ul.third {
-    left: 212px;
-    top: -1px;
-  }
+    nav ul.third {
+        left: 212px;
+        top: -1px;
+    }
 
-  nav ul.first li:hover ul.second,
-  nav ul.second li:hover ul.third {
-    display: block;
-  }
+    nav ul.first li:hover ul.second,
+    nav ul.second li:hover ul.third {
+        display: block;
+    }
 
-  nav ul.second li a,
-  nav ul.third li a {
-    padding: 0.75em 1em;
-  }
+    nav ul.second li a,
+    nav ul.third li a {
+        padding: 0.75em 1em;
+    }
 
-  #article {
-    width: 576px;
-    position: relative;
-  }
+    #article {
+        width: 576px;
+        position: relative;
+    }
 
-  #article #homepage {
-    width: 918px;
-    position: relative;
-  }
+    #article #homepage {
+        width: 918px;
+        position: relative;
+    }
 
-  #article aside {
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 608px;
-    width: 342px;
-  }
+    #article aside {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 608px;
+        width: 342px;
+    }
 
-  #article .content,
-  #content #article,
-  #homepage {
-    line-height: 1.75;
-  }
+    #article .content,
+    #content #article,
+    #homepage {
+        line-height: 1.75;
+    }
 }
