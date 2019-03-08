@@ -2,6 +2,7 @@
 
 <div id="article">
     <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
 
 {{ range where (.Paginator 10).Pages "Type" "in" .Site.Params.mainSections }}
   <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
