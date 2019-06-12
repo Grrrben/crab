@@ -1,5 +1,14 @@
 {{ partial "header.html" . }}
+
+{{ if $.Page.Params.layout }}
+{{/* this could include multiple layouts,
+for now just use the layout: full keyvalue set in the yaml/toml heading of the front matter
+*/}}
+
+<div id="fullarticle">
+{{ else }}
 <div id="article">
+{{ end }}
     <h1>{{ .Title }}</h1>
 {{ if hasPrefix .URL "/blog/" }}
 <p class="timestamp">{{ .Date.Format "January 2, 2006" }}</p>
