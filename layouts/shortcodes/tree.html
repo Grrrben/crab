@@ -5,11 +5,9 @@
 <div id="tree">
     <ul>
 {{ range $files }}
-{{ if ne .Name "_index.md" }}
+{{ if ne .Name "index.md" }}
 {{- $page := printf "%s/%s" $dir .Name -}}
 {{ with $.Page.Site.GetPage $page }}<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>{{ end }}
 {{ end }}
 {{ end }}</ul>
-
 </div>
-

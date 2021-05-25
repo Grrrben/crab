@@ -1,0 +1,19 @@
+<div>
+    {{ with .Page.Resources.ByType "image" }}
+        {{ range . }}
+            {{ $image := .Fill "180x244" }}
+                <div style="float: left; padding: 3px 0 0 6px">
+                    <a href="{{ .RelPermalink }}">
+                        <img src="{{ $image.RelPermalink }}" title="Klik voor vergroting">
+                    </a>
+                    <br>
+
+                    {{ $filename := .Name | replaceRE "^images/([a-z0-9\\-]+).jpg" "$1" }}
+                    <a href="{{ .RelPermalink }}" style="text-transform: capitalize;">
+                        {{ replace $filename "-" " " }}
+                    </a>
+
+                </div>
+        {{ end }}
+    {{ end }}
+</div>
