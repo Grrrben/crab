@@ -8,7 +8,7 @@
                     </a>
                     <br>
 
-                    {{ $filename := .Name | replaceRE "^images/([a-z0-9\\-]+).jpg" "$1" }}
+                    {{ $filename := .Name | replaceRE "^images/([a-z0-9\\-\\(\\)]+).jpg" "$1" }}
                     <a href="{{ .RelPermalink }}" style="text-transform: capitalize;">
                         {{ replace $filename "-" " " }}
                     </a>
